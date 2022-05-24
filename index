@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .nav {
+      height: 70px;
+      border-bottom: 1px solid black;
+      display: flex;
+      align-item: center;
+    }
+
+    .nav-right-items {
+      display: flex;
+      margin-left: auto;
+    }
+
+    .nav-item {
+      margin-left: 10px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 300;
+      margin-top: 8px;
+    }
+
+    .main {
+      width: 800px;
+      margin: 0 auto;
+      margin-top: 60px;
+    }
+
+    .prices {
+      display: flex;
+      #..
+    }
+
+    .price-item {
+      width: 300px;
+      height: 300px;
+      border: 1px solid black;
+      margin-top: 60px;
+      margin: 20px;
+      border-radius;
+      4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="company-name">
+      notzzam
+    </div>
+    <div class="nav-right-items">
+      <div class="nav-item">메뉴1</div>
+      <div class="nav-item">메뉴2</div>
+      <div class="nav-item">메뉴3</div>
+      <div class="nav-item">메뉴4</div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="title">
+      데이터분석
+    </div>
+    <div class="subtitle">
+      블로그 글을 그대로 크롤링 하여 그 데이터들을 토대로 데이터 정제, </br>
+      분석 및 예측을 대쉬보드로 제공
+    </div>
+
+    <div class="prices">
+      <div class="price-item">
+        <div class="price-item-title">
+          Free
+        </div>
+        <div class="price-item-title">
+          $0 / month
+        </div>
+        <div class="price-item-detail">
+          7일 무제한 사용 가능
+        </div>
+        <button class="price-item-detail">
+          Click here
+        </button>
+      </div>
+      <div class="price-item">
+        <div class="price-item-title">
+          Pro
+        </div>
+        <div class="price-item-title">
+          $15 / month
+        </div>
+        <div class="price-item-detail">
+          4000원 짜리 커피 세 잔 대신....
+          @@@, @@@, @@@를 이용해보세요.
+        </div>
+        <button class="price-item-detail">
+          Get started
+        </button>
+      </div>
+      <div class="price-item">
+        <div class="price-item-title">
+          Enterprise
+        </div>
+        <div class="price-item-title">
+          $29 / month
+        </div>
+        <div class="price-item-detail">
+          더 자세하고 세밀한 분석과 함께
+          정확한 예측모델을 이용해 user님의 @@@, @@@, @@@ 를 예측해드립니다.
+        </div>
+        <button class="price-item-detail">
+          Contact us
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
